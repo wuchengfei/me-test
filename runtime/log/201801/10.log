@@ -1,0 +1,124 @@
+---------------------------------------------------------------
+[ 2018-01-10T17:44:03+08:00 ] 127.0.0.1 GET /
+[ error ] [8]Use of undefined constant ‘admin’ - assumed '‘admin’'
+---------------------------------------------------------------
+[ 2018-01-10T17:47:14+08:00 ] 127.0.0.1 GET /
+[ error ] [4096]Argument 1 passed to think\Build::run() must be of the type array, string given, called in D:\phpStudy\WWW\Thinkshop\public\index.php on line 19 and defined
+---------------------------------------------------------------
+[ 2018-01-10T17:47:36+08:00 ] 127.0.0.1 GET /
+[ error ] [4096]Argument 1 passed to think\Build::run() must be of the type array, string given, called in D:\phpStudy\WWW\Thinkshop\public\index.php on line 19 and defined
+---------------------------------------------------------------
+[ 2018-01-10T17:48:05+08:00 ] 127.0.0.1 GET /
+[ info ] thinkshop.cn/ [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：1,088.58kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=986275840',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4096]Argument 1 passed to think\Build::run() must be of the type array, string given, called in D:\phpStudy\WWW\Thinkshop\public\index.php on line 19 and defined[D:\phpStudy\WWW\Thinkshop\thinkphp\library\think\Build.php:25]
+---------------------------------------------------------------
+[ 2018-01-10T17:48:38+08:00 ] 127.0.0.1 GET /
+[ info ] thinkshop.cn/ [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：1,088.59kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=986275840',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4096]Argument 1 passed to think\Build::run() must be of the type array, string given, called in D:\phpStudy\WWW\Thinkshop\public\index.php on line 19 and defined[D:\phpStudy\WWW\Thinkshop\thinkphp\library\think\Build.php:25]
+---------------------------------------------------------------
+[ 2018-01-10T17:49:19+08:00 ] 127.0.0.1 GET /
+[ info ] thinkshop.cn/ [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：1,058.86kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=986275840',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-10T18:35:34+08:00 ] 127.0.0.1 GET /
+[ info ] thinkshop.cn/ [运行时间：0.110006s][吞吐率：9.09req/s] [内存消耗：1,064.41kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=986275840',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::fetch()[D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php:8]
