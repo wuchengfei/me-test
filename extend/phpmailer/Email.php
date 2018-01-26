@@ -10,12 +10,13 @@ class Email{
 	 * 发送邮件
 	 * @Author   Wade
 	 * @DateTime 2018-01-26
-	 * @param $to      收件人
-	 * @param $title   邮件标题
-	 * @param $content 邮件内容
+	 * @param $to      			收件人
+	 * @param $title  			邮件标题
+	 * @param $content 			邮件内容
+	 * @param $AddAttachment 	附件地址(根目录为public)
 	 * @return   bool
 	 */
-	public static function send($to,$title,$content){
+	public static function send($to,$title,$content,$AddAttachment){
 		date_default_timezone_set('PRC');//设置时间
 		try {
 			$mail = new Phpmailer(); 
@@ -37,7 +38,9 @@ class Email{
 			$mail->Body = $content;
 			$mail->AltBody    = config('email.AltBody'); //当邮件不支持html时备用显示，可以省略
 			$mail->WordWrap   = config('email.WordWrap'); // 设置每行字符串的长度
-			//$mail->AddAttachment("f:/test.png");  //可以添加附件
+			if (config('email.AddAttachment')) {
+				$mail->AddAttachment($_SERVER['DOCUMENT_ROOT'].$AddAttachment);  //附件地址
+			}
 			$mail->IsHTML(true); 
 			if(!$mail->send()){// 发送邮件
                 return "Mailer Error: ".$mail->ErrorInfo;// 输出错误信息

@@ -11,9 +11,9 @@ class Index extends Controller
 
     public function test(){
 
-    	\PHPMailer\Email::send('363141511@qq.com','这只是个测试','Hello phpemailer');
-        return '成功！';
-    	return $this->fetch();
+    	\PHPMailer\Email::send('363141511@qq.com','这只是个测试','Hello phpemailer','/test.png');
+        return "<script>alert('邮件发送成功！')</script>";
+    	//return $this->fetch();
     }
 
     public function map(){

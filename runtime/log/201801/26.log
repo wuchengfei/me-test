@@ -3233,3 +3233,383 @@
 )
 [ info ] [ RUN ] app\index\controller\Index->test[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T20:28:55+08:00 ] 127.0.0.1 GET /index.php/admin
+[ info ] thinkshop.cn/index.php/admin [运行时间：0.161010s][吞吐率：6.21req/s] [内存消耗：1,305.64kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516791631,1516849529,1516946720',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T20:28:57+08:00 ] 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ info ] thinkshop.cn/index.php/admin/index/welcome.html [运行时间：1.483084s][吞吐率：0.67req/s] [内存消耗：1,582.78kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516791631,1516849529,1516946720',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://thinkshop.cn/index.php/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T20:28:58+08:00 ] 127.0.0.1 GET /index.php/index/index/test
+[ info ] thinkshop.cn/index.php/index/index/test [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：1,287.55kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516791631,1516849529,1516946720,1516969737; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516969737',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_REFERER[D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php:15]
+---------------------------------------------------------------
+[ 2018-01-26T20:29:23+08:00 ] 127.0.0.1 GET /index.php/index/index/test
+[ info ] thinkshop.cn/index.php/index/index/test [运行时间：0.054004s][吞吐率：18.52req/s] [内存消耗：1,255.08kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516791631,1516849529,1516946720,1516969737; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516969737',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T20:31:35+08:00 ] 127.0.0.1 GET /index.php/index/index/test
+[ info ] thinkshop.cn/index.php/index/index/test [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：1,002.73kb] [文件加载：33]
+[ error ] [4]syntax error, unexpected '=', expecting ']'[D:\phpStudy\WWW\Thinkshop\application\extra\email.php:20]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T20:32:33+08:00 ] 127.0.0.1 GET /index.php/index/index/test
+[ info ] thinkshop.cn/index.php/index/index/test [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,002.72kb] [文件加载：33]
+[ error ] [4]syntax error, unexpected '=', expecting ']'[D:\phpStudy\WWW\Thinkshop\application\extra\email.php:20]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T20:32:46+08:00 ] 127.0.0.1 GET /index.php/index/index/test
+[ info ] thinkshop.cn/index.php/index/index/test [运行时间：0.265015s][吞吐率：3.77req/s] [内存消耗：1,634.41kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516791631,1516849529,1516946720,1516969737; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516969737',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/index\view\index\test.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T20:32:47+08:00 ] 127.0.0.1 GET /index.php/index/index/map.html
+[ info ] thinkshop.cn/index.php/index/index/map.html [运行时间：0.287016s][吞吐率：3.48req/s] [内存消耗：1,258.99kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516791631,1516849529,1516946720,1516969737; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516969737',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://thinkshop.cn/index.php/index/index/test',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->map[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T20:33:21+08:00 ] 127.0.0.1 GET /index.php/index/index/test
+[ info ] thinkshop.cn/index.php/index/index/test [运行时间：0.073005s][吞吐率：13.70req/s] [内存消耗：1,544.97kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516791631,1516849529,1516946720,1516969737; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516969737',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Function set_magic_quotes_runtime() is deprecated[D:\phpStudy\WWW\Thinkshop\extend\phpmailer\Phpmailer.php:1472]
+---------------------------------------------------------------
+[ 2018-01-26T20:34:18+08:00 ] 127.0.0.1 GET /index.php/index/index/test
+[ info ] thinkshop.cn/index.php/index/index/test [运行时间：0.073005s][吞吐率：13.70req/s] [内存消耗：1,544.80kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516791631,1516849529,1516946720,1516969737; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516969737',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Function set_magic_quotes_runtime() is deprecated[D:\phpStudy\WWW\Thinkshop\extend\phpmailer\Phpmailer.php:1472]
+---------------------------------------------------------------
+[ 2018-01-26T20:35:31+08:00 ] 127.0.0.1 GET /index.php/index/index/test
+[ info ] thinkshop.cn/index.php/index/index/test [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：1,544.16kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516791631,1516849529,1516946720,1516969737; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516969737',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: magic_quotes[D:\phpStudy\WWW\Thinkshop\extend\phpmailer\Phpmailer.php:1476]
+---------------------------------------------------------------
+[ 2018-01-26T20:36:16+08:00 ] 127.0.0.1 GET /index.php/index/index/test
+[ info ] thinkshop.cn/index.php/index/index/test [运行时间：1.495085s][吞吐率：0.67req/s] [内存消耗：1,633.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516791631,1516849529,1516946720,1516969737; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516969737',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/index\view\index\test.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T20:36:17+08:00 ] 127.0.0.1 GET /index.php/index/index/map.html
+[ info ] thinkshop.cn/index.php/index/index/map.html [运行时间：0.183011s][吞吐率：5.46req/s] [内存消耗：1,258.99kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516791631,1516849529,1516946720,1516969737; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516969737',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://thinkshop.cn/index.php/index/index/test',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->map[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T20:43:24+08:00 ] 127.0.0.1 GET /index.php/index/index/test
+[ info ] thinkshop.cn/index.php/index/index/test [运行时间：1.501086s][吞吐率：0.67req/s] [内存消耗：1,582.14kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516791631,1516849529,1516946720,1516969737; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516969737',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T20:43:48+08:00 ] 127.0.0.1 GET /index.php/index/index/test
+[ info ] thinkshop.cn/index.php/index/index/test [运行时间：0.521030s][吞吐率：1.92req/s] [内存消耗：1,582.40kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516791631,1516849529,1516946720,1516969737; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516969737',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'thinkshop.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File

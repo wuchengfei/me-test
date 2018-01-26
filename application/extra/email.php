@@ -16,4 +16,6 @@ return [
 	'FromName' => "Thinkshop(TP5商城学习)",//发件人名称
 	'AltBody' => '要查看该消息，请使用HTML兼容的电子邮件查看器！',//当邮件不支持html时备用显示，可以省略
 	'WordWrap' => 80, // 设置每行字符串的长度
+	'AddAttachment' => true,//开启附件
+	//'AddAttachment_src' => $_SERVER['DOCUMENT_ROOT'].'/test.png'//附件地址(在这配置貌似不合逻辑)
 ];
