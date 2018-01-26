@@ -1,5 +1,5 @@
 ﻿# Host: localhost  (Version: 5.5.53)
-# Date: 2018-01-15 17:54:37
+# Date: 2018-01-26 19:16:21
 # Generator: MySQL-Front 5.3  (Build 4.234)
 
 /*!40101 SET NAMES utf8 */;
@@ -143,12 +143,13 @@ CREATE TABLE `tp_category` (
   `update_time` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `parent_id` (`parent_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 #
 # Data for table "tp_category"
 #
 
+INSERT INTO `tp_category` VALUES (1,'美食',0,0,1,1516346141,1516851092),(2,'娱乐',0,0,1,1516346210,1516851092),(3,'网咖',2,0,1,1516346259,1516346259);
 
 #
 # Structure for table "tp_city"
