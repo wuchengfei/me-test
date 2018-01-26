@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"D:\phpStudy\WWW\Thinkshop\public/../application/index\view\index\index.html";i:1515580500;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:75:"D:\phpStudy\WWW\Thinkshop\public/../application/index\view\index\index.html";i:1516086826;s:65:"D:\phpStudy\WWW\Thinkshop\application\index\view\public\head.html";i:1516086596;s:64:"D:\phpStudy\WWW\Thinkshop\application\index\view\public\nav.html";i:1516086641;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -9,9 +9,9 @@
     <title>商城首页</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <link href="css/iconfont/iconfont.css" rel="stylesheet"/>
-    <link href="css/common.css" rel="stylesheet"/>
-    <link href="css/home.css" rel="stylesheet"/>
+    <link href="/static/index/css/iconfont/iconfont.css" rel="stylesheet"/>
+    <link href="/static/index/css/common.css" rel="stylesheet"/>
+    <link href="/static/index/css/home.css" rel="stylesheet"/>
 </head>
 <body>
     <!--头部-->
@@ -46,7 +46,7 @@
     <div class="header-wrap">
         <div class="header wrapper">
             <a href="" class="logo">
-                <img src="img/logo3.png" alt="" />
+                <img src="/static/index/img/logo3.png" alt="" />
             </a>
             <div class="header-schbox">
                 <div class="inner clearfix">
@@ -77,8 +77,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="nav-box">
+    </div>    <div class="nav-box">
         <div class="nav wrapper">
             <div class="slogan"></div>
             <ul class="nav-ul">
@@ -88,11 +87,10 @@
                 <li><a href="">新品首发</a></li>
                 <li><a href="">低价抢购</a></li>
             </ul>
-            <div class="nav-ad"><a class="ad" href=""><img src="uploads/nav-ad.jpg" alt="" /></a></div>
+            <div class="nav-ad"><a class="ad" href=""><img src="/static/index/uploads/nav-ad.jpg" alt="" /></a></div>
         </div>
     </div>
     <!--头部-->
-
     <div class="side-category" style="display: none;">
         <div class="side-category-tit">全品分类</div>
         <div class="side-category-bd">
@@ -119,7 +117,7 @@
                         </div>
                     </div>
                     <div class="ft">
-                        <a href=""><img class="ad" src="uploads/10.jpg" /></a>
+                        <a href=""><img class="ad" src="/static/index/uploads/10.jpg" /></a>
                     </div>
                 </div>
             </div>
@@ -171,9 +169,9 @@
     </div>
 
     <div class="home-full-banner">
-        <a href="" class="item"><img data-lazy="uploads/banner1.jpg" alt="" /></a>
-        <a href="" class="item"><img data-lazy="uploads/banner1.jpg" alt="" /></a>
-        <a href="" class="item"><img data-lazy="uploads/banner1.jpg" alt="" /></a>
+        <a href="" class="item"><img data-lazy="/static/index/uploads/banner1.jpg" alt="" /></a>
+        <a href="" class="item"><img data-lazy="/static/index/uploads/banner1.jpg" alt="" /></a>
+        <a href="" class="item"><img data-lazy="/static/index/uploads/banner1.jpg" alt="" /></a>
     </div>
 
     <div class="gray-box">
@@ -181,16 +179,16 @@
             <!-- 商品促销 -->
             <div class="promo-list clearfix">
                 <div class="col">
-                    <a class="item" href="goods-detail.html"><img src="uploads/13.jpg" alt="" /></a>
+                    <a class="item" href="goods-detail.html"><img src="/static/index/uploads/13.jpg" alt="" /></a>
                 </div>
                 <div class="col">
-                    <a class="item" href="goods-detail.html"><img src="uploads/14.jpg" alt="" /></a>
+                    <a class="item" href="goods-detail.html"><img src="/static/index/uploads/14.jpg" alt="" /></a>
                 </div>
                 <div class="col">
-                    <a class="item" href="goods-detail.html"><img src="uploads/15.jpg" alt="" /></a>
+                    <a class="item" href="goods-detail.html"><img src="/static/index/uploads/15.jpg" alt="" /></a>
                 </div>
                 <div class="col">
-                    <a class="item" href="goods-detail.html"><img src="uploads/16.jpg" alt="" /></a>
+                    <a class="item" href="goods-detail.html"><img src="/static/index/uploads/16.jpg" alt="" /></a>
                 </div>
             </div>
 
@@ -201,7 +199,7 @@
                 </div>
                 <div class="flash-sale clearfix">
                     <div class="grid grid-b">
-                        <a href="goods-detail.html"><img src="uploads/17.jpg" alt="" /></a>
+                        <a href="goods-detail.html"><img src="/static/index/uploads/17.jpg" alt="" /></a>
                     </div>
                     <div class="grid grid-m">
                         <a href="goods-detail.html">
@@ -210,7 +208,7 @@
                                 <div class="stit">6.44''大屏黄金尺寸</div>
                                 <div class="info">大屏大电量</div>
                             </div>
-                            <img src="uploads/18.jpg" alt="" />
+                            <img src="/static/index/uploads/18.jpg" alt="" />
                         </a>
                     </div>
                     <div class="grid grid-s">
@@ -219,7 +217,7 @@
                                 <div class="tit">无线运动耳麦</div>
                                 <div class="stit">大牌钜惠驾到</div>
                             </div>
-                            <img src="uploads/53.jpg" alt="" />
+                            <img src="/static/index/uploads/53.jpg" alt="" />
                         </a>
                     </div>
                     <div class="grid grid-s">
@@ -228,7 +226,7 @@
                                 <div class="tit">靠谱好装备</div>
                                 <div class="stit">简约书台柜组合</div>
                             </div>
-                            <img src="uploads/57.jpg" alt="" />
+                            <img src="/static/index/uploads/57.jpg" alt="" />
                         </a>
                     </div>
                     <div class="grid grid-s">
@@ -237,7 +235,7 @@
                                 <div class="tit">无线运动耳麦</div>
                                 <div class="stit">大牌钜惠驾到</div>
                             </div>
-                            <img src="uploads/52.jpg" alt="" />
+                            <img src="/static/index/uploads/52.jpg" alt="" />
                         </a>
                     </div>
                     <div class="grid grid-s">
@@ -246,7 +244,7 @@
                                 <div class="tit">靠谱好装备</div>
                                 <div class="stit">简约书台柜组合</div>
                             </div>
-                            <img src="uploads/20.jpg" alt="" />
+                            <img src="/static/index/uploads/20.jpg" alt="" />
                         </a>
                     </div>
                     <div class="grid grid-s">
@@ -255,7 +253,7 @@
                                 <div class="tit">无线运动耳麦</div>
                                 <div class="stit">大牌钜惠驾到</div>
                             </div>
-                            <img src="uploads/19.jpg" alt="" />
+                            <img src="/static/index/uploads/19.jpg" alt="" />
                         </a>
                     </div>
                     <div class="grid grid-s">
@@ -264,7 +262,7 @@
                                 <div class="tit">靠谱好装备</div>
                                 <div class="stit">简约书台柜组合</div>
                             </div>
-                            <img src="uploads/20.jpg" alt="" />
+                            <img src="/static/index/uploads/20.jpg" alt="" />
                         </a>
                     </div>
                 </div>
@@ -282,86 +280,86 @@
                 </div>
                 <div class="brand-feast clearfix">
                     <div class="ad-box">
-                        <a href=""><img src="uploads/21.jpg" /></a>
+                        <a href=""><img src="/static/index/uploads/21.jpg" /></a>
                     </div>
                     <div class="brand-feast-list">
                         <div class="item">
-                            <div class="logo"><img src="uploads/23.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/23.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/24.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/24.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/25.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/25.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/26.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/26.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/23.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/23.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/24.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/24.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/25.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/25.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/26.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/26.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/23.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/23.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/24.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/24.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/25.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/25.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/26.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/26.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/23.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/23.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/24.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/24.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/25.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/25.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/26.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/26.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/25.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/25.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                         <div class="item">
-                            <div class="logo"><img src="uploads/26.jpg" alt="" /></div>
+                            <div class="logo"><img src="/static/index/uploads/26.jpg" alt="" /></div>
                             <a class="mask" href=""><span class="text">九阳<br />爆款直降低至49元</span></a>
                         </div>
                     </div>
                 </div>
                 <!-- 广告 -->
                 <div style="margin-top:12px;">
-                    <a href=""><img src="uploads/22.jpg" alt="" /></a>
+                    <a href=""><img src="/static/index/uploads/22.jpg" alt="" /></a>
                 </div>
             </div>
         </div>
@@ -380,15 +378,15 @@
                 <div class="section-bd clearfix">
                     <div class="section-side">
                         <div class="banner">
-                            <a href="search-goods.html"><img src="uploads/27.jpg" alt="" /></a>
+                            <a href="search-goods.html"><img src="/static/index/uploads/27.jpg" alt="" /></a>
                         </div>
                         <div class="brands">
-                            <a href="search-goods.html" class="item"><div class="inner"><img src="uploads/23.jpg" alt="" /></div></a>
-                            <a href="search-goods.html" class="item"><div class="inner"><img src="uploads/12.jpg" alt="" /></div></a>
-                            <a href="search-goods.html" class="item"><div class="inner"><img src="uploads/24.jpg" alt="" /></div></a>
-                            <a href="search-goods.html" class="item"><div class="inner"><img src="uploads/25.jpg" alt="" /></div></a>
-                            <a href="search-goods.html" class="item"><div class="inner"><img src="uploads/26.jpg" alt="" /></div></a>
-                            <a href="search-goods.html" class="item"><div class="inner"><img src="uploads/24.jpg" alt="" /></div></a>
+                            <a href="search-goods.html" class="item"><div class="inner"><img src="/static/index/uploads/23.jpg" alt="" /></div></a>
+                            <a href="search-goods.html" class="item"><div class="inner"><img src="/static/index/uploads/12.jpg" alt="" /></div></a>
+                            <a href="search-goods.html" class="item"><div class="inner"><img src="/static/index/uploads/24.jpg" alt="" /></div></a>
+                            <a href="search-goods.html" class="item"><div class="inner"><img src="/static/index/uploads/25.jpg" alt="" /></div></a>
+                            <a href="search-goods.html" class="item"><div class="inner"><img src="/static/index/uploads/26.jpg" alt="" /></div></a>
+                            <a href="search-goods.html" class="item"><div class="inner"><img src="/static/index/uploads/24.jpg" alt="" /></div></a>
                         </div>
                     </div>
                     <div class="section-cont">
@@ -398,21 +396,21 @@
                                     <div class="tit">设计最爱之w3c数位板</div>
                                     <div class="info">爆款满1000减99 </div>
                                 </div>
-                                <img src="uploads/19.jpg" alt="" />
+                                <img src="/static/index/uploads/19.jpg" alt="" />
                             </a>
                             <a class="grid grid-s" href="goods-detail.html">
                                 <div class="inner-text">
                                     <div class="tit">设计最爱之w3c数位板</div>
                                     <div class="info">爆款满1000减99 </div>
                                 </div>
-                                <img src="uploads/19.jpg" alt="" />
+                                <img src="/static/index/uploads/19.jpg" alt="" />
                             </a>
                             <a class="grid grid-s" href="goods-detail.html">
                                 <div class="inner-text">
                                     <div class="tit">设计最爱之w3c数位板</div>
                                     <div class="info">爆款满1000减99 </div>
                                 </div>
-                                <img src="uploads/19.jpg" alt="" />
+                                <img src="/static/index/uploads/19.jpg" alt="" />
                             </a>
                         </div>
                         <div class="col">
@@ -421,14 +419,14 @@
                                     <div class="tit">设计最爱之w3c数位板</div>
                                     <div class="info">爆款满1000减99 </div>
                                 </div>
-                                <img src="uploads/18.jpg" alt="" />
+                                <img src="/static/index/uploads/18.jpg" alt="" />
                             </a>
                             <a class="grid grid-m" href="">
                                 <div class="inner-text">
                                     <div class="tit">设计最爱之w3c数位板</div>
                                     <div class="info">爆款满1000减99 </div>
                                 </div>
-                                <img src="uploads/32.jpg" alt="" />
+                                <img src="/static/index/uploads/32.jpg" alt="" />
                             </a>
                         </div>
                         <div class="col">
@@ -437,21 +435,21 @@
                                     <div class="tit">设计最爱之w3c数位板</div>
                                     <div class="info">爆款满1000减99 </div>
                                 </div>
-                                <img src="uploads/19.jpg" alt="" />
+                                <img src="/static/index/uploads/19.jpg" alt="" />
                             </a>
                             <a class="grid grid-s" href="goods-detail.html">
                                 <div class="inner-text">
                                     <div class="tit">设计最爱之w3c数位板</div>
                                     <div class="info">爆款满1000减99 </div>
                                 </div>
-                                <img src="uploads/19.jpg" alt="" />
+                                <img src="/static/index/uploads/19.jpg" alt="" />
                             </a>
                             <a class="grid grid-s" href="goods-detail.html">
                                 <div class="inner-text">
                                     <div class="tit">设计最爱之w3c数位板</div>
                                     <div class="info">爆款满1000减99 </div>
                                 </div>
-                                <img src="uploads/19.jpg" alt="" />
+                                <img src="/static/index/uploads/19.jpg" alt="" />
                             </a>
                         </div>
                     </div>
@@ -468,7 +466,7 @@
                 <div class="section-bd clearfix">
                     <div class="section-side">
                         <div class="banner">
-                            <a href=""><img src="uploads/30.jpg" alt="" /></a>
+                            <a href=""><img src="/static/index/uploads/30.jpg" alt="" /></a>
                         </div>
                         <div class="category">
                            <div class="tit">商城超市</div>
@@ -491,21 +489,21 @@
                                     <div class="tit">设计最爱之w3c数位板</div>
                                     <div class="info">爆款满1000减99 </div>
                                 </div>
-                                <img src="uploads/19.jpg" alt="" />
+                                <img src="/static/index/uploads/19.jpg" alt="" />
                             </a>
                             <a class="grid grid-s" href="goods-detail.html">
                                 <div class="inner-text">
                                     <div class="tit">设计最爱之w3c数位板</div>
                                     <div class="info">爆款满1000减99 </div>
                                 </div>
-                                <img src="uploads/19.jpg" alt="" />
+                                <img src="/static/index/uploads/19.jpg" alt="" />
                             </a>
                             <a class="grid grid-s" href="goods-detail.html">
                                 <div class="inner-text">
                                     <div class="tit">设计最爱之w3c数位板</div>
                                     <div class="info">爆款满1000减99 </div>
                                 </div>
-                                <img src="uploads/19.jpg" alt="" />
+                                <img src="/static/index/uploads/19.jpg" alt="" />
                             </a>
                         </div>
                         <div class="col">
@@ -514,14 +512,14 @@
                                     <div class="tit">设计最爱之w3c数位板</div>
                                     <div class="info">爆款满1000减99 </div>
                                 </div>
-                                <img src="uploads/18.jpg" alt="" />
+                                <img src="/static/index/uploads/18.jpg" alt="" />
                             </a>
                             <a class="grid grid-m" href="">
                                 <div class="inner-text">
                                     <div class="tit">设计最爱之w3c数位板</div>
                                     <div class="info">爆款满1000减99 </div>
                                 </div>
-                                <img src="uploads/32.jpg" alt="" />
+                                <img src="/static/index/uploads/32.jpg" alt="" />
                             </a>
                         </div>
                         <div class="col">
@@ -530,21 +528,21 @@
                                     <div class="tit">设计最爱之w3c数位板</div>
                                     <div class="info">爆款满1000减99 </div>
                                 </div>
-                                <img src="uploads/19.jpg" alt="" />
+                                <img src="/static/index/uploads/19.jpg" alt="" />
                             </a>
                             <a class="grid grid-s" href="goods-detail.html">
                                 <div class="inner-text">
                                     <div class="tit">设计最爱之w3c数位板</div>
                                     <div class="info">爆款满1000减99 </div>
                                 </div>
-                                <img src="uploads/19.jpg" alt="" />
+                                <img src="/static/index/uploads/19.jpg" alt="" />
                             </a>
                             <a class="grid grid-s" href="goods-detail.html">
                                 <div class="inner-text">
                                     <div class="tit">设计最爱之w3c数位板</div>
                                     <div class="info">爆款满1000减99 </div>
                                 </div>
-                                <img src="uploads/19.jpg" alt="" />
+                                <img src="/static/index/uploads/19.jpg" alt="" />
                             </a>
                         </div>
                     </div>
@@ -560,25 +558,25 @@
             <div class="fatft-service">
                 <div class="item">
                     <a href="">
-                        <img src="img/ico/ft-ser1.png" alt="" class="ico" />
+                        <img src="/static/index/img/ico/ft-ser1.png" alt="" class="ico" />
                         <span>品质保障</span>
                     </a>
                 </div>
                 <div class="item">
                     <a href="">
-                        <img src="img/ico/ft-ser2.png" alt="" class="ico" />
+                        <img src="/static/index/img/ico/ft-ser2.png" alt="" class="ico" />
                         <span>七天无理由退换货</span>
                     </a>
                 </div>
                 <div class="item">
                     <a href="">
-                        <img src="img/ico/ft-ser3.png" alt="" class="ico" />
+                        <img src="/static/index/img/ico/ft-ser3.png" alt="" class="ico" />
                         <span>特色服务体验</span>
                     </a>
                 </div>
                 <div class="item">
                     <a href="">
-                        <img src="img/ico/ft-ser4.png" alt="" class="ico" />
+                        <img src="/static/index/img/ico/ft-ser4.png" alt="" class="ico" />
                         <span>帮助中心</span>
                     </a>
                 </div>
@@ -624,8 +622,8 @@
                     <div class="time">周一至周日 8:00-18:00 <br />（仅收市话费）</div>
                     <div class="tool">
                         <a href="" class="kefu"><i class="iconfont icon-huifu"></i>在线客服</a>
-                        <a class="ico weixin" href=""><img src="img/ico/ft-weixin.png" alt="" /><img src="uploads/ercode.jpg" class="ercode" /></a>
-                        <a class="ico sina" href=""><img src="img/ico/ft-sina.png" alt="" /></a>
+                        <a class="ico weixin" href=""><img src="/static/index/img/ico/ft-weixin.png" alt="" /><img src="/static/index/uploads/ercode.jpg" class="ercode" /></a>
+                        <a class="ico sina" href=""><img src="/static/index/img/ico/ft-sina.png" alt="" /></a>
                     </div>
                 </div>
             </div>
@@ -634,10 +632,10 @@
     <div class="footer">安徽XXX网络科技有限公司 版权所有 Copyright © 2016-2018   备案号：皖ICP备123456789</div>
     <!--脚部-->
 </body>
-<script src="js/jquery.js"></script>
-<link rel="stylesheet" href="js/slick/slick.css"/>
-<script src="js/slick/slick.min.js"></script>
-<script src="js/global.js"></script>
+<script src="/static/index/js/jquery.js"></script>
+<link rel="stylesheet" href="/static/index/js/slick/slick.css"/>
+<script src="/static/index/js/slick/slick.min.js"></script>
+<script src="/static/index/js/global.js"></script>
 <script>
     $('.home-full-banner').slick({
         autoplay: true,

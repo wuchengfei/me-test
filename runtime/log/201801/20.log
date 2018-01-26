@@ -1,0 +1,3407 @@
+---------------------------------------------------------------
+[ 2018-01-20T10:59:41+08:00 ] 127.0.0.1 GET /
+[ info ] thinkshop.cn/ [运行时间：0.127007s][吞吐率：7.87req/s] [内存消耗：1,594.75kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\Thinkshop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T11:06:25+08:00 ] 127.0.0.1 GET /index.php?s=admin/index
+[ info ] thinkshop.cn/index.php?s=admin/index [运行时间：0.084005s][吞吐率：11.90req/s] [内存消耗：1,640.73kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T11:06:25+08:00 ] 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ info ] thinkshop.cn/index.php/admin/index/welcome.html [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：1,576.28kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:03:25+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.186011s][吞吐率：5.38req/s] [内存消耗：2,895.88kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.026002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:13:42+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.129007s][吞吐率：7.75req/s] [内存消耗：2,896.97kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:13:48+08:00 ] 127.0.0.1 GET /index.php/admin/category/status.html?id=2&status=0
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=0 [运行时间：0.100006s][吞吐率：10.00req/s] [内存消耗：2,645.68kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:14:21+08:00 ] 127.0.0.1 GET /index.php/admin/category/status.html?id=2&status=0
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=0 [运行时间：0.161010s][吞吐率：6.21req/s] [内存消耗：2,785.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=0,`update_time`=1516421661  WHERE  `id` = 2 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:14:24+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.116007s][吞吐率：8.62req/s] [内存消耗：2,744.65kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/status.html?id=2&status=0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:14:27+08:00 ] 127.0.0.1 GET /index.php/admin/category/status.html?id=2&status=1
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=1 [运行时间：0.119007s][吞吐率：8.40req/s] [内存消耗：2,785.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=1,`update_time`=1516421667  WHERE  `id` = 2 [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:14:30+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.114007s][吞吐率：8.77req/s] [内存消耗：2,744.63kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/status.html?id=2&status=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:22:20+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.193011s][吞吐率：5.18req/s] [内存消耗：2,897.01kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.027002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:22:37+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.121007s][吞吐率：8.26req/s] [内存消耗：2,897.27kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:44:15+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.128008s][吞吐率：7.81req/s] [内存消耗：2,743.91kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.023002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:44:17+08:00 ] 127.0.0.1 GET /index.php/admin/category/edit.html?id=2
+[ info ] thinkshop.cn/index.php/admin/category/edit.html?id=2 [运行时间：0.205011s][吞吐率：4.88req/s] [内存消耗：2,751.04kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'categorys',
+  1 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:44:21+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=0
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=0 [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：2,650.05kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:44:33+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.174010s][吞吐率：5.75req/s] [内存消耗：2,743.93kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:44:36+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=0
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=0 [运行时间：0.083004s][吞吐率：12.05req/s] [内存消耗：2,650.05kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T12:46:09+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.145008s][吞吐率：6.90req/s] [内存消耗：2,744.99kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:46:12+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=0
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=0 [运行时间：0.123007s][吞吐率：8.13req/s] [内存消耗：2,791.34kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=0,`update_time`=1516423572  WHERE  `id` = 2 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:46:12+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.151009s][吞吐率：6.62req/s] [内存消耗：2,745.36kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.026002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:46:15+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=1
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=1 [运行时间：0.152009s][吞吐率：6.58req/s] [内存消耗：2,791.27kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.020002s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=1,`update_time`=1516423575  WHERE  `id` = 2 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:46:15+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.147009s][吞吐率：6.80req/s] [内存消耗：2,745.36kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.022002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:46:36+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.155009s][吞吐率：6.45req/s] [内存消耗：2,745.01kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.026002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:46:39+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=0
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=0 [运行时间：0.129007s][吞吐率：7.75req/s] [内存消耗：2,791.27kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=0,`update_time`=1516423599  WHERE  `id` = 2 [ RunTime:0.005000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:46:39+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.141008s][吞吐率：7.09req/s] [内存消耗：2,745.36kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:46:42+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=1
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=1 [运行时间：0.135008s][吞吐率：7.41req/s] [内存消耗：2,791.27kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=1,`update_time`=1516423602  WHERE  `id` = 2 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:46:42+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.163010s][吞吐率：6.13req/s] [内存消耗：2,745.36kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.006001s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:46:49+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.168009s][吞吐率：5.95req/s] [内存消耗：2,744.99kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:46:52+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=0
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=0 [运行时间：0.113006s][吞吐率：8.85req/s] [内存消耗：2,791.34kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019002s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=0,`update_time`=1516423612  WHERE  `id` = 2 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:46:52+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.153009s][吞吐率：6.54req/s] [内存消耗：2,745.36kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.021002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:46:54+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.110007s][吞吐率：9.09req/s] [内存消耗：2,744.99kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:47:06+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.129007s][吞吐率：7.75req/s] [内存消耗：2,744.99kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.023002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:47:09+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=1
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=1 [运行时间：0.119007s][吞吐率：8.40req/s] [内存消耗：2,791.34kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=1,`update_time`=1516423629  WHERE  `id` = 2 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:52:44+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.156009s][吞吐率：6.41req/s] [内存消耗：2,744.99kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:52:47+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=0
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=0 [运行时间：0.129007s][吞吐率：7.75req/s] [内存消耗：2,791.34kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=0,`update_time`=1516423967  WHERE  `id` = 2 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:52:47+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.135008s][吞吐率：7.41req/s] [内存消耗：2,745.36kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:58:20+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.129008s][吞吐率：7.75req/s] [内存消耗：2,744.99kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:58:22+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=1
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=1 [运行时间：0.114006s][吞吐率：8.77req/s] [内存消耗：2,791.34kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=1,`update_time`=1516424302  WHERE  `id` = 2 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:58:23+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.139008s][吞吐率：7.19req/s] [内存消耗：2,745.36kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:58:26+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=0
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=0 [运行时间：0.127007s][吞吐率：7.87req/s] [内存消耗：2,791.34kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=0,`update_time`=1516424306  WHERE  `id` = 2 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:58:26+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.145008s][吞吐率：6.90req/s] [内存消耗：2,745.36kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.004001s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:58:37+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.155009s][吞吐率：6.45req/s] [内存消耗：2,745.01kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:58:39+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=1
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=1 [运行时间：0.132007s][吞吐率：7.58req/s] [内存消耗：2,791.27kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=1,`update_time`=1516424319  WHERE  `id` = 2 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:58:39+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.143008s][吞吐率：6.99req/s] [内存消耗：2,745.36kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.022002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:58:56+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.142008s][吞吐率：7.04req/s] [内存消耗：2,744.99kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:58:58+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html?parent_id=2
+[ info ] thinkshop.cn/index.php/admin/category/index.html?parent_id=2 [运行时间：0.107007s][吞吐率：9.35req/s] [内存消耗：2,742.63kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'parent_id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 2  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:58:59+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.145008s][吞吐率：6.90req/s] [内存消耗：2,744.99kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:59:02+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=0
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=0 [运行时间：0.131007s][吞吐率：7.63req/s] [内存消耗：2,791.34kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=0,`update_time`=1516424342  WHERE  `id` = 2 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-01-20T12:59:07+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.208011s][吞吐率：4.81req/s] [内存消耗：2,745.36kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.021002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:00:52+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.152009s][吞吐率：6.58req/s] [内存消耗：2,744.99kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:00:55+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=1
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=1 [运行时间：0.123007s][吞吐率：8.13req/s] [内存消耗：2,791.34kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=1,`update_time`=1516424455  WHERE  `id` = 2 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:00:56+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.147009s][吞吐率：6.80req/s] [内存消耗：2,745.36kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:01:09+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=0
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=0 [运行时间：0.133008s][吞吐率：7.52req/s] [内存消耗：2,791.34kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=0,`update_time`=1516424469  WHERE  `id` = 2 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:01:10+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.131007s][吞吐率：7.63req/s] [内存消耗：2,745.36kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:01:14+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=1
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=1 [运行时间：0.133007s][吞吐率：7.52req/s] [内存消耗：2,791.34kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=1,`update_time`=1516424474  WHERE  `id` = 2 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:01:15+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.157009s][吞吐率：6.37req/s] [内存消耗：2,745.36kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:03:14+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=0
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=0 [运行时间：0.149008s][吞吐率：6.71req/s] [内存消耗：2,791.55kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=0,`update_time`=1516424594  WHERE  `id` = 2 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:04:38+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.149008s][吞吐率：6.71req/s] [内存消耗：2,746.48kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:04:43+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=2&status=1
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=2&status=1 [运行时间：0.130008s][吞吐率：7.69req/s] [内存消耗：2,792.83kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=1,`update_time`=1516424683  WHERE  `id` = 2 [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:04:44+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.142008s][吞吐率：7.04req/s] [内存消耗：2,746.75kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:04:48+08:00 ] 127.0.0.1 POST /index.php/admin/category/listorder.html
+[ info ] thinkshop.cn/index.php/admin/category/listorder.html [运行时间：0.118007s][吞吐率：8.47req/s] [内存消耗：2,653.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'listorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'listorder' => 'da',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->listorder[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T13:04:51+08:00 ] 127.0.0.1 POST /index.php/admin/category/listorder.html
+[ info ] thinkshop.cn/index.php/admin/category/listorder.html [运行时间：0.137008s][吞吐率：7.30req/s] [内存消耗：2,792.97kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'listorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '16',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'listorder' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->listorder[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `listorder`=0,`update_time`=1516424691  WHERE  `id` = 1 [ RunTime:0.003001s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:04:52+08:00 ] 127.0.0.1 POST /index.php/admin/category/listorder.html
+[ info ] thinkshop.cn/index.php/admin/category/listorder.html [运行时间：0.115007s][吞吐率：8.70req/s] [内存消耗：2,653.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'listorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'listorder' => 'da',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->listorder[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T13:05:00+08:00 ] 127.0.0.1 POST /index.php/admin/category/listorder.html
+[ info ] thinkshop.cn/index.php/admin/category/listorder.html [运行时间：0.108006s][吞吐率：9.26req/s] [内存消耗：2,653.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'listorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'listorder' => 'aa',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->listorder[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T13:05:06+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.138008s][吞吐率：7.25req/s] [内存消耗：2,746.48kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:05:09+08:00 ] 127.0.0.1 POST /index.php/admin/category/listorder.html
+[ info ] thinkshop.cn/index.php/admin/category/listorder.html [运行时间：0.098006s][吞吐率：10.20req/s] [内存消耗：2,653.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'listorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'listorder' => 'aa',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->listorder[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T13:05:12+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.164010s][吞吐率：6.10req/s] [内存消耗：2,746.48kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:06:19+08:00 ] 127.0.0.1 GET /index.php/admin/category/edit.html?id=1
+[ info ] thinkshop.cn/index.php/admin/category/edit.html?id=1 [运行时间：0.270016s][吞吐率：3.70req/s] [内存消耗：2,753.66kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->edit[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\edit.html [ array (
+  0 => 'categorys',
+  1 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.020002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:07:36+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.144008s][吞吐率：6.94req/s] [内存消耗：2,899.02kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:07:59+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=1&status=0
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=1&status=0 [运行时间：0.123007s][吞吐率：8.13req/s] [内存消耗：2,792.83kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'status' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=0,`update_time`=1516424879  WHERE  `id` = 1 [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:08:00+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：2,746.77kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:09:22+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.149008s][吞吐率：6.71req/s] [内存消耗：2,898.99kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.022002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:09:24+08:00 ] 127.0.0.1 POST /index.php/admin/category/status.html?id=1&status=-1
+[ info ] thinkshop.cn/index.php/admin/category/status.html?id=1&status=-1 [运行时间：0.139008s][吞吐率：7.19req/s] [内存消耗：2,792.84kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'status' => '-1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->status[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `status`=-1,`update_time`=1516424964  WHERE  `id` = 1 [ RunTime:0.009001s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:09:26+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.144008s][吞吐率：6.94req/s] [内存消耗：2,743.80kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:10:24+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.129007s][吞吐率：7.75req/s] [内存消耗：2,743.50kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T13:10:29+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.114007s][吞吐率：8.77req/s] [内存消耗：2,746.48kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T14:54:18+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.276016s][吞吐率：3.62req/s] [内存消耗：2,898.58kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T14:55:34+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.214012s][吞吐率：4.67req/s] [内存消耗：2,898.65kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.026002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.006000s ]
+---------------------------------------------------------------
+[ 2018-01-20T14:55:41+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.148008s][吞吐率：6.76req/s] [内存消耗：2,748.64kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T14:56:35+08:00 ] 127.0.0.1 GET /index.php?s=admin/index
+[ info ] thinkshop.cn/index.php?s=admin/index [运行时间：0.100005s][吞吐率：10.00req/s] [内存消耗：1,641.34kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T14:56:35+08:00 ] 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ info ] thinkshop.cn/index.php/admin/index/welcome.html [运行时间：0.158009s][吞吐率：6.33req/s] [内存消耗：1,576.88kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516417587',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T14:56:38+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.151009s][吞吐率：6.62req/s] [内存消耗：2,898.65kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516431397',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2018-01-20T14:57:47+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.182010s][吞吐率：5.49req/s] [内存消耗：2,898.65kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516431397',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020002s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T14:58:09+08:00 ] 127.0.0.1 GET /index.php/admin/category/datadel.html
+[ info ] thinkshop.cn/index.php/admin/category/datadel.html [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：2,640.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'datadel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516431397',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->datadel[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T14:58:41+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.153009s][吞吐率：6.54req/s] [内存消耗：2,898.63kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516431397',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T14:58:47+08:00 ] 127.0.0.1 GET /index.php/admin/category/datadel.html
+[ info ] thinkshop.cn/index.php/admin/category/datadel.html [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：2,640.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'datadel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516431397',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->datadel[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T14:59:03+08:00 ] 127.0.0.1 GET /index.php?s=admin/index
+[ info ] thinkshop.cn/index.php?s=admin/index [运行时间：0.151008s][吞吐率：6.62req/s] [内存消耗：1,641.34kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516431397',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T14:59:03+08:00 ] 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ info ] thinkshop.cn/index.php/admin/index/welcome.html [运行时间：0.130007s][吞吐率：7.69req/s] [内存消耗：1,576.85kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516431397',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T14:59:07+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.236013s][吞吐率：4.24req/s] [内存消耗：2,898.63kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516431547',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024001s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T14:59:13+08:00 ] 127.0.0.1 POST /index.php/admin/category/datadel.html
+[ info ] thinkshop.cn/index.php/admin/category/datadel.html [运行时间：0.119007s][吞吐率：8.40req/s] [内存消耗：2,640.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'datadel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516431547',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->datadel[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T15:06:29+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.134007s][吞吐率：7.46req/s] [内存消耗：2,898.72kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516431547',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-20T15:06:39+08:00 ] 127.0.0.1 POST /index.php/admin/category/datadel.html
+[ info ] thinkshop.cn/index.php/admin/category/datadel.html [运行时间：0.121007s][吞吐率：8.26req/s] [内存消耗：2,640.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'datadel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516431547',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->datadel[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T15:07:12+08:00 ] 127.0.0.1 POST /index.php/admin/category/datadel.html
+[ info ] thinkshop.cn/index.php/admin/category/datadel.html [运行时间：0.187011s][吞吐率：5.35req/s] [内存消耗：2,640.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'datadel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516431547',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->datadel[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-20T15:14:43+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.146009s][吞吐率：6.85req/s] [内存消耗：2,899.32kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516431547',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T15:18:38+08:00 ] 127.0.0.1 POST /index.php/admin/category/listorder.html
+[ info ] thinkshop.cn/index.php/admin/category/listorder.html [运行时间：0.135007s][吞吐率：7.41req/s] [内存消耗：2,795.20kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'listorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '16',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516431547',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'listorder' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->listorder[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] UPDATE `tp_category`  SET `listorder`=0,`update_time`=1516432718  WHERE  `id` = 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T15:25:35+08:00 ] 127.0.0.1 GET /index.php/admin/category/index.html
+[ info ] thinkshop.cn/index.php/admin/category/index.html [运行时间：0.133007s][吞吐率：7.52req/s] [内存消耗：2,898.73kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://thinkshop.cn/index.php?s=admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516431547',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\Thinkshop\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=thinkshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-01-20T15:25:44+08:00 ] 127.0.0.1 POST /index.php/admin/category/datadel.html
+[ info ] thinkshop.cn/index.php/admin/category/datadel.html [运行时间：0.102006s][吞吐率：9.80req/s] [内存消耗：2,640.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\Thinkshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'datadel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkshop.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://thinkshop.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12918.400',
+  'referer' => 'http://thinkshop.cn/index.php/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1516094537,1516259331,1516345960,1516417587; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1516431547',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->datadel[ D:\phpStudy\WWW\Thinkshop\application\admin\controller\Category.php ]
+[ info ] [ LOG ] INIT File
